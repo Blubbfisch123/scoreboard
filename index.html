@@ -6,10 +6,21 @@
         <div class="container">
             <div>
                 <h3>HOME</h3>
+                <h4 id="homecounter-el">0</h4>
+                <button id="hplus1" onclick="homeplusone()">+1</button>
+                <button id="hplus2" onclick="homeplustwo()">+2</button>
+                <button id="hplus3" onclick="homeplusthree()">+3</button>
             </div>
             <div>
                 <h3>AWAY</h3>
+                <h4 id="guestcounter-el">0</h4>
+                <button id="aplus1" onclick="guestplusone()">+1</button>
+                <button id="aplus2" onclick="guestplustwo()">+2</button>
+                <button id="aplus3" onclick="guestplusthree()">+3</button>
             </div>
+            <p>
+                <button id="reset" onclick="resetscore()">RESET</button>
+            </p>
         </div>
         <script src="index.js"></script>
     </body>
